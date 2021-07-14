@@ -1,0 +1,23 @@
+{
+  "name": "returning-messages-api",
+  "version": "1.0.0",
+  "description": "Chanllege-Golky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Christian Juiza",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.0.1",
+    "supertest-session": "^4.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
