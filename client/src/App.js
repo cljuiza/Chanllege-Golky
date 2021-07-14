@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.css";
+import Cards from "./components/Card/Card";
+import NavbarApp from "./components/NavBar/Navbar.jsx";
+
 
 function App() {
   return (
-    <div className="App">
-      Hola Chris
+    <div className="App" >
+          <NavbarApp/>
+          <Cards/>
     </div>
   );
 }
