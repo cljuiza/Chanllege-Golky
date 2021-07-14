@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height:100%
 }
 .App-header {
   background-color: #282c34;
@@ -9,13 +11,12 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
- 
 }
 .App-link {
   color: #61dafb;
 }
 .nav{
-  height: 180px;
+  height: 150px;
   background-color: #282c34 ;
 }
 .form{
@@ -23,7 +24,7 @@
   flex-direction:row ;
   margin: 15px;
   width: 600px;
-
+  margin-top: 80px;
 }
 .input{
   margin-right: 15px;
